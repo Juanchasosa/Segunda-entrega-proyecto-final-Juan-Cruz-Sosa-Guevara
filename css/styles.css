@@ -450,20 +450,21 @@ footer h4{
 }
 
 #imagen1{
-    height: 300px;
     width: auto;
+    height: 350px;
     margin: 10px;
     background-image: url(../img/tratamiento-reductor-min.jpg);
 
 }
 @media (max-width:600px){
     #imagen1{
+
         height: 200px;
     }
 }
 
 #imagen2{
-    height: 300px;
+    height: 350px;
     width: auto;
     margin: 10px;
     background-image: url(../img/electroestimulación.jpg);
@@ -476,10 +477,10 @@ footer h4{
 }
 
 #imagen3{
-    height: 300px;
+    height: 350px;
     width: auto;
     margin: 10px;
-    background-image: url(../img/masaje-modelador.jpg);
+    background-image: url(../img/ultrasonido.jfif);
 
 }
 
@@ -490,7 +491,7 @@ footer h4{
 }
 
 #imagen4{
-    height: 300px;
+    height: 350px;
     width: auto;
     margin: 10px;
     background-image: url(../img/masaje-piernas.jpg);
@@ -504,7 +505,7 @@ footer h4{
 }
 
 #imagen5{
-    height: 300px;
+    height: 350px;
     width: auto;
     margin: 10px;
     background-image: url(../img/drenaje-linfático.jpg);
@@ -518,7 +519,7 @@ footer h4{
 }
 
 #imagen6{
-    height: 300px;
+    height: 350px;
     width: auto;
     margin: 10px;
     background-image: url(../img/masoterapia.jpg);
@@ -532,16 +533,17 @@ footer h4{
 }
 
 
+
 .parallax{
     background: #fff fixed no-repeat 50% 50% ;
     background-size: cover;
+    width: 100%;
 }
 
 @media (max-width:600px){
     .parallax{
-        background-size: cover;
-        background-position: center;
-        object-fit: contain;
+        background-attachment: scroll;
+        
     }
 }
 
