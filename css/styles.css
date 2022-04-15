@@ -193,10 +193,12 @@ background-color: #d5a1d6;
 
 p{
     color: #777777;
-    margin-left: 30px;
-    margin-right: 30px;
-    font-size: 18px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
     padding: 5px;
+    font-size: 18px;
+    width: 95%;
+    margin: 0 auto;
     text-align: justify;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;;
     line-height: 1.5;
@@ -256,10 +258,22 @@ p{
 
 
 .subtitulo2{
-    margin-left: 30px;
+    /* margin-left: 3rem; */
+    margin: 0 auto;
     color: black;
     font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;;
+    width: 95%;
+
+}
+
+.subtitulo3{
+    /* margin-left: 3rem; */
+    color: #218377;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;;
+    margin: 0 auto;
+    width: 95%;
 
 }
 
@@ -461,11 +475,74 @@ footer h4{
     }
 }
 
+#imagen3{
+    height: 300px;
+    width: auto;
+    margin: 10px;
+    background-image: url(../img/masaje-modelador.jpg);
+
+}
+
+@media (max-width:600px){
+    #imagen3{
+        height: 200px;
+    }
+}
+
+#imagen4{
+    height: 300px;
+    width: auto;
+    margin: 10px;
+    background-image: url(../img/masaje-piernas.jpg);
+
+}
+
+@media (max-width:600px){
+    #imagen4{
+        height: 200px;
+    }
+}
+
+#imagen5{
+    height: 300px;
+    width: auto;
+    margin: 10px;
+    background-image: url(../img/drenaje-linfático.jpg);
+
+}
+
+@media (max-width:600px){
+    #imagen5{
+        height: 200px;
+    }
+}
+
+#imagen6{
+    height: 300px;
+    width: auto;
+    margin: 10px;
+    background-image: url(../img/masoterapia.jpg);
+
+}
+
+@media (max-width:600px){
+    #imagen6{
+        height: 200px;
+    }
+}
+
 
 .parallax{
     background: #fff fixed no-repeat 50% 50% ;
     background-size: cover;
+}
 
+@media (max-width:600px){
+    .parallax{
+        background-size: cover;
+        background-position: center;
+        object-fit: contain;
+    }
 }
 
 
