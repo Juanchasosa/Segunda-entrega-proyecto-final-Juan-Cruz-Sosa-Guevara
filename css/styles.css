@@ -312,9 +312,15 @@ section{
     background-color: black;
 }
 
-@media (max-width:600px){
+@media (min-width: 601px) and (max-width: 1023px){
     .redesSociales{
         width: 50%;
+    }
+}
+
+@media (max-width:600px){
+    .redesSociales{
+        width: 80%;
     }
 }
 
